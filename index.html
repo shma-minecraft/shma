@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ШМА Сервер</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <img src="images/logo.png" alt="ШМА" class="logo">
+  <nav class="nav">
+    <a href="#pay">Оплата</a>
+    <a href="#ip">IP Сервера</a>
+    <a href="#contact">Связь</a>
+  </nav>
+</header>
+
+<section class="intro">
+  <div class="banner-row">
+    <img src="images/banner.png" alt="ШМА Баннер" class="banner">
+    <a href="https://discord.gg/WZeqTNr7Py" target="_blank">
+      <img src="images/discord.jpg" alt="Discord" class="donate-img discord-banner">
+    </a>
+  </div>
+  <h2><span>Лучший</span> ванильный Майнкрафт сервер</h2>
+  <p>Самое креативное комьюнити, отзывчивая администрация и ламповая атмосфера на каждом шагу!</p>
+  <div class="yellow-line"></div>
+</section>
+
+<section id="pay" class="pay">
+  <h1>Оплата</h1>
+  <div class="pay-container">
+    <a href="https://www.donationalerts.com/r/shma_vanilla" target="_blank">
+      <img src="images/donate.png" alt="Просто и быстро!" class="donate-img">
+    </a>
+    <p>Просто закиньте указанную сумму одним донатом и напишите свой ник в Майнкрафте</p>
+  </div>
+</section>
+
+<section id="ip" class="ip">
+  <h1>Вход только по проходке!</h1>
+  <h1><div class="ip-box" onclick="copyIP()">
+    <span>IP:</span>
+    <span class="ip-address" id="server-ip">shma.joinserver.xyz</span></h1>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Связь!</h2>
+  <div class="contact-imgs">
+    <div class="player">
+      <img src="images/player1.png" alt="Игрок 1">
+      <div class="social-icons">
+        <a href="https://www.youtube.com/@Shame240" target="_blank"><img src="images/youtube.gif" alt="YouTube"></a>
+        <a href="https://t.me/Shame_240" target="_blank"><img src="images/telegram.gif" alt="Telegram"></a>
+      </div>
+    </div>
+    <div class="player">
+      <img src="images/player2.png" alt="Игрок 2">
+      <div class="social-icons">
+        <a href="https://www.youtube.com/@titanch1k" target="_blank"><img src="images/youtube.gif" alt="YouTube"></a>
+        <a href="https://t.me/t1tanchik" target="_blank"><img src="images/telegram.gif" alt="Telegram"></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="copy-alert">IP скопирован!</div>
+
+<script src="script.js"></script>
+</body>
+</html>
